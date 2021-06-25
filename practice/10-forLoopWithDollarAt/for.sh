@@ -1,5 +1,5 @@
 #!/bin/bash
-for language in $0
+for language in $@
 do
   echo "I can speak $language"
 done
