@@ -1,0 +1,6 @@
+```
+${VARIABLE:-defaultValue}
+```
+```
+${VARIABLE-defaultValue}
+```
