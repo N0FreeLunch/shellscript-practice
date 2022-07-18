@@ -1,0 +1,10 @@
+version: "2"
+services:
+  app:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    working_dir: /home/user/practice
+    volumes:
+      - ./practice:/home/user/practice
+    tty: true # prevent terminating container
