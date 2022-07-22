@@ -1,4 +1,5 @@
 #!/bin/bash
+
 language="korean"
 
 function print () {
