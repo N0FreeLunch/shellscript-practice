@@ -7,3 +7,11 @@ function print () {
 }
 
 print
+
+function change () {
+  language="english"
+}
+
+change
+
+print

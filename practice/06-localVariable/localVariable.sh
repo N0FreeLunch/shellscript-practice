@@ -12,5 +12,23 @@ function print() {
 }
 
 learn
+
 print $language
+
 print $learn_language
+
+function globalChange() {
+  language="japanese"
+}
+
+function localCahnge() {
+  local language="chinese"
+}
+
+globalChange
+
+print $language
+
+localCahnge
+
+print $language
