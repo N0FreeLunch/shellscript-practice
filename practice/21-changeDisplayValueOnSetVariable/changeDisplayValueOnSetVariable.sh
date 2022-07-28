@@ -1,3 +1,5 @@
+#!/bin/bash
+
 OS_TYPE="ubuntu"
 
 echo ${OS_TYPE:+redhat}
