@@ -1,3 +1,4 @@
 #!/bin/bash
-sh ./sample.sh &
+sh sample.sh &
 echo $!
+echo $$
