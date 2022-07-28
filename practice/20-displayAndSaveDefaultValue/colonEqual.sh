@@ -1,4 +1,6 @@
 #!/bin/bash
+echo ${OS_TYPE:=redhat}
+
 OS_TYPE=""
 echo ${OS_TYPE:-redhat}
 echo ${OS_TYPE}
