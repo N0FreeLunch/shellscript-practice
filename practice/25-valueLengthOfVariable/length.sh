@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 
 FILE_PATH="/etc/nova/nova.conf"
 

@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 
 OS_TYPE="Redhat Ununtu Fedora Debian"
 echo ${OS_TYPE:14}

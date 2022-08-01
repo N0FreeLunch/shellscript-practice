@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 
 FILE_NAME="myvm_container_repo.tar.gz"
 echo ${FILE_NAME#*_}
