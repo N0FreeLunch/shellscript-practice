@@ -18,36 +18,36 @@ esac
 
 ## 커멘드라인 명령
 ```
-sh switchCase.sh start
+bash switchCase.sh start
 ```
 - `start)`에 매칭되므로 `echo "Start"`를 실행한다.
 
 ```
-sh switchCase.sh start1
+bash switchCase.sh start1
 ```
 - `start)`에 매칭되지 않고, `*)`에 매칭되므로 `echo "Plaease input sub command"`를 실행한다.
 
 ```
-sh switchCase.sh stop
+bash switchCase.sh stop
 ```
 - `stop)`에 매칭되므로 `echo "Stop"`를 실행한다.
 
 ```
-sh switchCase.sh stop1
+bash switchCase.sh stop1
 ```
 - `stop)`에 매칭되지 않고, `*)`에 매칭되므로 `echo "Plaease input sub command"`를 실행한다.
 
 ```
-sh switchCase.sh help
+bash switchCase.sh help
 ```
 - `help*)`에 매칭되므로 `echo "Help"`를 실행한다.
 
 ```
-sh switchCase.sh help1
+bash switchCase.sh help1
 ```
 - `help*)`에 매칭되므로 `echo "Help"`를 실핸한다.
 
 ```
-sh switchCase.sh other
+bash switchCase.sh other
 ```
 - `*)`에 매칭되므로 `echo "Plaease input sub command"`를 실행한다.

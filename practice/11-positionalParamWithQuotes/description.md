@@ -1,6 +1,6 @@
 ## 쉘 스크립트 실행 옵션
 ```
-sh quotes.sh Korean English "Japanses Chinese"
+bash quotes.sh Korean English "Japanses Chinese"
 ```
 
 ## `$*`

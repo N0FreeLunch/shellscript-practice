@@ -9,13 +9,13 @@
 
 ## 스크립트 해석
 ```
-sh recentShellBackgroundPID.sh 
+bash recentShellBackgroundPID.sh
 ```
 - 처음 실행된 쉘 스크립트
 
 ### 백그라운드 프로세스 실행
 ```
-sh sample.sh &
+bash sample.sh &
 ```
 - 두 번째로 실행된 쉘 스크립트
 - 비동기로 실행된다.

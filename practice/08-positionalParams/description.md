@@ -1,7 +1,7 @@
 ## 쉘 스크립트 실행 명령어
 - `sh`나 `bash` 등의 터미널 명령어를 사용해서 쉘 스크립트 파일을 실행하는 경우
 ```
-sh params.sh param1 param2 param3
+bash params.sh param1 param2 param3
 ```
 
 ```

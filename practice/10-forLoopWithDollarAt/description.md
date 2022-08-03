@@ -1,9 +1,9 @@
 ## 쉘 스크립트 실행 옵션
 ```
-sh for.sh Korean English "Japanses Chinese"
+bash for.sh Korean English "Japanses Chinese"
 ```
 ```
-sh for.sh Korean English 'Japanses Chinese'
+bash for.sh Korean English 'Japanses Chinese'
 ```
 - 스페이스로 구분된 문자열을 하나의 옵션으로 묶을 때는 `""`를 사용할 수도 있지만 `''`을 사용해도 된다.
 

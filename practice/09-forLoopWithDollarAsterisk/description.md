@@ -1,9 +1,9 @@
 ## 쉘 스크립트 실행 옵션
 ```
-sh for.sh Korean English "Japanses Chinese"
+bash for.sh Korean English "Japanses Chinese"
 ```
 ```
-sh for.sh Korean English 'Japanses Chinese'
+bash for.sh Korean English 'Japanses Chinese'
 ```
 - 결과는 `Korean English Japanses Chinese`이다.
 - `""` 또는 `''`이 사라진 것을 알 수 있다. `""` 또는 `''`는 커멘드 라인 옵션에서 코드를 한 단위로 묶는 역할을 한다.
