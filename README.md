@@ -17,12 +17,13 @@ docker compose up -d
 ```
 
 ## access to container
-### sh
+### sh (default)
 ```
 docker compose exec app sh
 ```
 
-## bash (defined installing bash shell in Dockefile)
+## bash (require installing bash shell in Dockefile)
+*Run this command*
 ```
 docker compose exec app bash
 ```
