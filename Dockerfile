@@ -10,7 +10,10 @@ ENV ROOTDIR=/home/user
 # install Bash shell
 RUN apk update \
     && apk upgrade \
-    && apk add bash
+    && apk add bash \
+    && apk add tzdata \
+    && cp /usr/share/zoneinfo/Asia/Seoul /etc/localtime
+
 
 RUN addgroup -S $GROUP \
     && adduser -S $USER -G $GROUP
