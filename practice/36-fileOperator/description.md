@@ -1,4 +1,9 @@
 ## 파일 특성을 확인하는 연산자
+### 실행
+```
+sh fileOperator.sh 
+```
+
 ### `-d 경로문자열`
 - 대상이 디렉터리 경로를 나타내는 문자열이고 해당 결로가 디렉터리이면 참이다.
 ```
@@ -60,6 +65,11 @@ if [ -G $FILE ]; then echo $FILE file owner is matched to current group; else ec
 ```
 
 ## 파일 비교 연산자
+### 실행
+```
+bash fileCompareOperator.sh
+```
+
 ### `대상1 -nt 대상2`
 - 대상1과 대상2는 파일 또는 디렉터리 경로이다. 대상1이 대상2 보다 현재 시점에서 생성 시간이 더 가까운 경우 참이다.
 - 대상1은 대상2 보다 nt(new time)에 생성된 파일인가?
