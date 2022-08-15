@@ -31,3 +31,4 @@ docker compose exec app bash
 ## Reference
 - \[Book\] 처음 배우는 쉘 스크립트
 - [bash official reference](http://www.gnu.org/software/bash/manual/bash.html)
+- [The GNU C Library](https://www.gnu.org/software/libc/manual/html_node)
